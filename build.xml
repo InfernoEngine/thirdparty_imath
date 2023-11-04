@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<Module>
+	
+	<GlobalSolutionName>ThirdParty</GlobalSolutionName>
+	<GlobalNamespace>potato</GlobalNamespace>
+
+	<StaticLibrary>
+		<Name>thirdparty_imath</Name>
+		<SourceRoot>src/Imath</SourceRoot>
+		<ExportedIncludeDirectory>src/Imath</ExportedIncludeDirectory>
+		<ThirdParty>true</ThirdParty>
+		<ThirdPartySourceFile>
+			half.cpp;
+    		ImathColorAlgo.cpp;
+		    ImathFun.cpp;
+    		ImathMatrixAlgo.cpp;
+    		ImathRandom.cpp
+		</ThirdPartySourceFile>
+	</StaticLibrary>
+
+</Module>
