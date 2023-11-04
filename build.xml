@@ -7,7 +7,7 @@
 	<StaticLibrary>
 		<Name>thirdparty_imath</Name>
 		<SourceRoot>src/Imath</SourceRoot>
-		<ExportedIncludeDirectory>src/Imath</ExportedIncludeDirectory>
+		<ExportedIncludeDirectory>src</ExportedIncludeDirectory>
 		<ThirdParty>true</ThirdParty>
 		<ThirdPartySourceFile>
 			half.cpp;
